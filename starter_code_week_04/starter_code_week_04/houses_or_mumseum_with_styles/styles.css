@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: radial-gradient(300% 100% at top, #a79b8b 10%,  #e7ddc0 65%,#d6dbd8) fixed;
+    background: radial-gradient(300% 100% at top, #cec5b8 10%,  #e7ddc0 65%,#9ba9b5) fixed;
 }
 
 div {
@@ -17,12 +17,14 @@ h1 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 h3 {
     color: #666;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -36,16 +38,26 @@ img {
 }
 
 p {
-    color: #444;
+    color: #000000;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 em {
     font-style: italic;
 }
 .neon{
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 900;
     color:rgb(44, 32, 18)
+}
+
+.bigger{
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
 }
